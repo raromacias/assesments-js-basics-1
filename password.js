@@ -6,11 +6,16 @@
 //test out the conditional by using different values for password.
 
 let password = "KobeBean24"
+let testArr = password.slice(0, password.length)
+console.log(testArr)
 console.log(password.length)
     if(password.length >= 10){
         console.log("Success!")
     }else{
         console.log("Failure!")
     }
+    // for (i=0; i < password.length; i++){
+        
+    // }
 
     
